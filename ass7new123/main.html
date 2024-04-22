@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Book Store</title>
+    <style>
+        header {
+            background-image: url('https://images.unsplash.com/photo-1618365908648-e71bd5716cba?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJvb2tzdG9yZXxlbnwwfHwwfHx8MA%3D%3D');
+            background-size: cover;
+            background-position: center;
+            height: 300px; /* Adjust as needed */
+            text-align: center;
+            color: white;
+            padding-top: 50px;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: none;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            display: block;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+
+        section {
+            flex: 0 0 calc(33.33% - 20px);
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #ccc;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Online Book Store</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="catalogue.html">Catalogue</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registration1.html">Registration</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <img src="https://i.pinimg.com/474x/0f/d5/6f/0fd56f0054335a05081d919b5eca740f.jpg" alt="Book 1">
+            <p>Witty stories for children</p>
+        </section>
+        <section>
+            <img src="https://www.amarchitrakatha.com/wp-content/uploads/2020/06/ramayana.jpg" alt="Book 2">
+            <p>Epic conquest of Shri Ram </p>
+        </section>
+        <section>
+            <img src="https://cdn.exoticindia.com/images/products/original/books/naf280.jpg" alt="Book 3">
+            <p>Epic conquest of Mahabharat</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Online Book Store</p>
+    </footer>
+</body>
+</html>
